@@ -1,0 +1,1 @@
+# pjatk-sem2-nbd

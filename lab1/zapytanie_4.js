@@ -1,0 +1,1 @@
+printjson(db.people.find({"weight":{"$gte":"68.00","$lt":"71.50"}}).toArray())

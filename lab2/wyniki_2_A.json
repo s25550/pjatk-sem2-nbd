@@ -1,0 +1,622 @@
+MongoDB shell version v5.0.9
+connecting to: mongodb://127.0.0.1:27017/nbd2-mongo?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("d98e79a0-db69-4503-8ea9-df15cff1e586") }
+MongoDB server version: 5.0.9
+[
+	{
+		"sumBalance" : 693053.85,
+		"currency" : "BYR"
+	},
+	{
+		"sumBalance" : 628234.91,
+		"currency" : "AMD"
+	},
+	{
+		"sumBalance" : 23023.02,
+		"currency" : "HKD"
+	},
+	{
+		"sumBalance" : 5118.97,
+		"currency" : "FKP"
+	},
+	{
+		"sumBalance" : 1568281.9,
+		"currency" : "MXN"
+	},
+	{
+		"sumBalance" : 225111.38999999998,
+		"currency" : "LKR"
+	},
+	{
+		"sumBalance" : 2601019.27,
+		"currency" : "JPY"
+	},
+	{
+		"sumBalance" : 8648162.27,
+		"currency" : "RUB"
+	},
+	{
+		"sumBalance" : 9321.43,
+		"currency" : "FJD"
+	},
+	{
+		"sumBalance" : 14734.27,
+		"currency" : "DJF"
+	},
+	{
+		"sumBalance" : 11557.6,
+		"currency" : "RON"
+	},
+	{
+		"sumBalance" : 597758.09,
+		"currency" : "GTQ"
+	},
+	{
+		"sumBalance" : 243512.86,
+		"currency" : "GBP"
+	},
+	{
+		"sumBalance" : 12820.48,
+		"currency" : "SGD"
+	},
+	{
+		"sumBalance" : 21598.47,
+		"currency" : "ERN"
+	},
+	{
+		"sumBalance" : 655866.63,
+		"currency" : "ALL"
+	},
+	{
+		"sumBalance" : 1998158.32,
+		"currency" : "CAD"
+	},
+	{
+		"sumBalance" : 157276.96,
+		"currency" : "GEL"
+	},
+	{
+		"sumBalance" : 46538.51,
+		"currency" : "CVE"
+	},
+	{
+		"sumBalance" : 4854.36,
+		"currency" : "STD"
+	},
+	{
+		"sumBalance" : 638306.07,
+		"currency" : "VEF"
+	},
+	{
+		"sumBalance" : 4154939.09,
+		"currency" : "USD"
+	},
+	{
+		"sumBalance" : 345203.25,
+		"currency" : "UGX"
+	},
+	{
+		"sumBalance" : 42256.53,
+		"currency" : "SSP"
+	},
+	{
+		"sumBalance" : 415965.47,
+		"currency" : "BAM"
+	},
+	{
+		"sumBalance" : 67582.8,
+		"currency" : "AOA"
+	},
+	{
+		"sumBalance" : 86305.05,
+		"currency" : "LAK"
+	},
+	{
+		"sumBalance" : 754247.57,
+		"currency" : "XAF"
+	},
+	{
+		"sumBalance" : 168150.01,
+		"currency" : "XCD"
+	},
+	{
+		"sumBalance" : 5337.77,
+		"currency" : "MOP"
+	},
+	{
+		"sumBalance" : 225770.32,
+		"currency" : "DKK"
+	},
+	{
+		"sumBalance" : 92068.64,
+		"currency" : "MZN"
+	},
+	{
+		"sumBalance" : 134649.56,
+		"currency" : "SDG"
+	},
+	{
+		"sumBalance" : 947722.84,
+		"currency" : "ZAR"
+	},
+	{
+		"sumBalance" : 52973.33,
+		"currency" : "AED"
+	},
+	{
+		"sumBalance" : 182130.48,
+		"currency" : "MUR"
+	},
+	{
+		"sumBalance" : 32068.850000000002,
+		"currency" : "MVR"
+	},
+	{
+		"sumBalance" : 517904.09,
+		"currency" : "CUP"
+	},
+	{
+		"sumBalance" : 382347.12,
+		"currency" : "MGA"
+	},
+	{
+		"sumBalance" : 944111.3,
+		"currency" : "XOF"
+	},
+	{
+		"sumBalance" : 9983,
+		"currency" : "SBD"
+	},
+	{
+		"sumBalance" : 157963.9,
+		"currency" : "GMD"
+	},
+	{
+		"sumBalance" : 403957.97000000003,
+		"currency" : "CLP"
+	},
+	{
+		"sumBalance" : 403856.73,
+		"currency" : "AZN"
+	},
+	{
+		"sumBalance" : 138004.7,
+		"currency" : "KMF"
+	},
+	{
+		"sumBalance" : 37654,
+		"currency" : "TWD"
+	},
+	{
+		"sumBalance" : 1967570.17,
+		"currency" : "ARS"
+	},
+	{
+		"sumBalance" : 201447.71,
+		"currency" : "JMD"
+	},
+	{
+		"sumBalance" : 291487.63,
+		"currency" : "PYG"
+	},
+	{
+		"sumBalance" : 334451.77,
+		"currency" : "UZS"
+	},
+	{
+		"sumBalance" : 617053.52,
+		"currency" : "TZS"
+	},
+	{
+		"sumBalance" : 5127210.21,
+		"currency" : "PLN"
+	},
+	{
+		"sumBalance" : 273491.26,
+		"currency" : "KES"
+	},
+	{
+		"sumBalance" : 215992.13,
+		"currency" : "HTG"
+	},
+	{
+		"sumBalance" : 776758.6,
+		"currency" : "NOK"
+	},
+	{
+		"sumBalance" : 176827.79,
+		"currency" : "KGS"
+	},
+	{
+		"sumBalance" : 87008.08,
+		"currency" : "OMR"
+	},
+	{
+		"sumBalance" : 1980543.49,
+		"currency" : "COP"
+	},
+	{
+		"sumBalance" : 334544.06,
+		"currency" : "CRC"
+	},
+	{
+		"sumBalance" : 197545.65,
+		"currency" : "LYD"
+	},
+	{
+		"sumBalance" : 214942.07,
+		"currency" : "JOD"
+	},
+	{
+		"sumBalance" : 5189,
+		"currency" : "BMD"
+	},
+	{
+		"sumBalance" : 30739.64,
+		"currency" : "WST"
+	},
+	{
+		"sumBalance" : 2381759.99,
+		"currency" : "PEN"
+	},
+	{
+		"sumBalance" : 61445.270000000004,
+		"currency" : "PGK"
+	},
+	{
+		"sumBalance" : 55361.39,
+		"currency" : "BSD"
+	},
+	{
+		"sumBalance" : 687770.55,
+		"currency" : "PKR"
+	},
+	{
+		"sumBalance" : 178097.37,
+		"currency" : "CDF"
+	},
+	{
+		"sumBalance" : 59113.090000000004,
+		"currency" : "SZL"
+	},
+	{
+		"sumBalance" : 699650.32,
+		"currency" : "HRK"
+	},
+	{
+		"sumBalance" : 273507.6,
+		"currency" : "ETB"
+	},
+	{
+		"sumBalance" : 446738.59,
+		"currency" : "KRW"
+	},
+	{
+		"sumBalance" : 116224.9,
+		"currency" : "SLL"
+	},
+	{
+		"sumBalance" : 24172.940000000002,
+		"currency" : "INR"
+	},
+	{
+		"sumBalance" : 14797.58,
+		"currency" : "SCR"
+	},
+	{
+		"sumBalance" : 160940.53,
+		"currency" : "ZMW"
+	},
+	{
+		"sumBalance" : 8354757.95,
+		"currency" : "PHP"
+	},
+	{
+		"sumBalance" : 2103307.17,
+		"currency" : "THB"
+	},
+	{
+		"sumBalance" : 88106.83,
+		"currency" : "MWK"
+	},
+	{
+		"sumBalance" : 363643.61,
+		"currency" : "PAB"
+	},
+	{
+		"sumBalance" : 242667.03,
+		"currency" : "AUD"
+	},
+	{
+		"sumBalance" : 1418903.3699999999,
+		"currency" : "VND"
+	},
+	{
+		"sumBalance" : 45782.33,
+		"currency" : "BIF"
+	},
+	{
+		"sumBalance" : 325755.9,
+		"currency" : "TND"
+	},
+	{
+		"sumBalance" : 43326.06,
+		"currency" : "LBP"
+	},
+	{
+		"sumBalance" : 230882.59,
+		"currency" : "LTL"
+	},
+	{
+		"sumBalance" : 644907.42,
+		"currency" : "MNT"
+	},
+	{
+		"sumBalance" : 257433.54,
+		"currency" : "BOB"
+	},
+	{
+		"sumBalance" : 804397.05,
+		"currency" : "IRR"
+	},
+	{
+		"sumBalance" : 73222.48,
+		"currency" : "GNF"
+	},
+	{
+		"sumBalance" : 39048.74,
+		"currency" : "ISK"
+	},
+	{
+		"sumBalance" : 12166.2,
+		"currency" : "DZD"
+	},
+	{
+		"sumBalance" : 54117.17,
+		"currency" : "MRO"
+	},
+	{
+		"sumBalance" : 44044.89,
+		"currency" : "TTD"
+	},
+	{
+		"sumBalance" : 167531.82,
+		"currency" : "IQD"
+	},
+	{
+		"sumBalance" : 161706,
+		"currency" : "SAR"
+	},
+	{
+		"sumBalance" : 13053.5,
+		"currency" : "GYD"
+	},
+	{
+		"sumBalance" : 26720.5,
+		"currency" : "BBD"
+	},
+	{
+		"sumBalance" : 446949.89,
+		"currency" : "MKD"
+	},
+	{
+		"sumBalance" : 817695.24,
+		"currency" : "HNL"
+	},
+	{
+		"sumBalance" : 83159.05,
+		"currency" : "GHS"
+	},
+	{
+		"sumBalance" : 355832.98,
+		"currency" : "NZD"
+	},
+	{
+		"sumBalance" : 2531920.9,
+		"currency" : "UAH"
+	},
+	{
+		"sumBalance" : 511625.27,
+		"currency" : "SYP"
+	},
+	{
+		"sumBalance" : 766163.99,
+		"currency" : "ILS"
+	},
+	{
+		"sumBalance" : 177401.05,
+		"currency" : "TJS"
+	},
+	{
+		"sumBalance" : 82203.48,
+		"currency" : "SOS"
+	},
+	{
+		"sumBalance" : 538809.21,
+		"currency" : "DOP"
+	},
+	{
+		"sumBalance" : 88501.85,
+		"currency" : "KWD"
+	},
+	{
+		"sumBalance" : 822119.3,
+		"currency" : "RSD"
+	},
+	{
+		"sumBalance" : 100447.58,
+		"currency" : "KHR"
+	},
+	{
+		"sumBalance" : 165192.16,
+		"currency" : "HUF"
+	},
+	{
+		"sumBalance" : 583657.38,
+		"currency" : "YER"
+	},
+	{
+		"sumBalance" : 16809.66,
+		"currency" : "KYD"
+	},
+	{
+		"sumBalance" : 21354.39,
+		"currency" : "ANG"
+	},
+	{
+		"sumBalance" : 36358.92,
+		"currency" : "QAR"
+	},
+	{
+		"sumBalance" : 22698.46,
+		"currency" : "BHD"
+	},
+	{
+		"sumBalance" : 19686.77,
+		"currency" : "SRD"
+	},
+	{
+		"sumBalance" : 5676516.76,
+		"currency" : "BRL"
+	},
+	{
+		"sumBalance" : 263374.09,
+		"currency" : "NIO"
+	},
+	{
+		"sumBalance" : 108940.64,
+		"currency" : "CHF"
+	},
+	{
+		"sumBalance" : 1301224.95,
+		"currency" : "NGN"
+	},
+	{
+		"sumBalance" : 113099.62,
+		"currency" : "TMT"
+	},
+	{
+		"sumBalance" : 502248.52,
+		"currency" : "BGN"
+	},
+	{
+		"sumBalance" : 23188.93,
+		"currency" : "VUV"
+	},
+	{
+		"sumBalance" : 538164.28,
+		"currency" : "EGP"
+	},
+	{
+		"sumBalance" : 132926.01,
+		"currency" : "XPF"
+	},
+	{
+		"sumBalance" : 18414.53,
+		"currency" : "TRY"
+	},
+	{
+		"sumBalance" : 516264.06,
+		"currency" : "MAD"
+	},
+	{
+		"sumBalance" : 7782.66,
+		"currency" : "BND"
+	},
+	{
+		"sumBalance" : 27742.45,
+		"currency" : "BZD"
+	},
+	{
+		"sumBalance" : 2668722.74,
+		"currency" : "CZK"
+	},
+	{
+		"sumBalance" : 15803638.67,
+		"currency" : "IDR"
+	},
+	{
+		"sumBalance" : 237715.67,
+		"currency" : "UYU"
+	},
+	{
+		"sumBalance" : 26269.07,
+		"currency" : "LSL"
+	},
+	{
+		"sumBalance" : 146606.65,
+		"currency" : "NPR"
+	},
+	{
+		"sumBalance" : 7282.73,
+		"currency" : "AWG"
+	},
+	{
+		"sumBalance" : 146972.04,
+		"currency" : "BWP"
+	},
+	{
+		"sumBalance" : 16913519.13,
+		"currency" : "EUR"
+	},
+	{
+		"sumBalance" : 147943.58,
+		"currency" : "ZWL"
+	},
+	{
+		"sumBalance" : 54883.45,
+		"currency" : "LRD"
+	},
+	{
+		"sumBalance" : 677925.57,
+		"currency" : "AFN"
+	},
+	{
+		"sumBalance" : 27776263.33,
+		"currency" : "CNY"
+	},
+	{
+		"sumBalance" : 18424.47,
+		"currency" : "TOP"
+	},
+	{
+		"sumBalance" : 55420.34,
+		"currency" : "NAD"
+	},
+	{
+		"sumBalance" : 43299.96,
+		"currency" : "RWF"
+	},
+	{
+		"sumBalance" : 294843.38,
+		"currency" : "BDT"
+	},
+	{
+		"sumBalance" : 226778.17,
+		"currency" : "MMK"
+	},
+	{
+		"sumBalance" : 37711.08,
+		"currency" : "BTN"
+	},
+	{
+		"sumBalance" : 173318.73,
+		"currency" : "MDL"
+	},
+	{
+		"sumBalance" : 227902.01,
+		"currency" : "KPW"
+	},
+	{
+		"sumBalance" : 671978.45,
+		"currency" : "MYR"
+	},
+	{
+		"sumBalance" : 601904.37,
+		"currency" : "KZT"
+	},
+	{
+		"sumBalance" : 3738579.57,
+		"currency" : "SEK"
+	}
+]

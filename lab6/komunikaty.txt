@@ -1,0 +1,5 @@
+Rekord zostal zapisany
+student6: {"name": "Michal", "surname": "Roslaniec", "isMale": true}
+student6 po edycji: {"name": "Michal", "surname": "Kowalski", "isMale": true}
+student6 zostal usuniety
+student6 po usunieciu: None

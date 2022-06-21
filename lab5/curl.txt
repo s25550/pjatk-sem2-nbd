@@ -1,0 +1,37 @@
+# 1
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Michał", "surname": "Rosłaniec", "age": 25, "isMale": true}' http://localhost:8098/buckets/s25550/keys/student1
+
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Jan", "surname": "Kowalski", "age": 21, "isMale": true}' http://localhost:8098/buckets/s25550/keys/student2
+
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Piotr", "surname": "Nowak", "age": 22, "isMale": true}' http://localhost:8098/buckets/s25550/keys/student3
+
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Anna", "surname": "Testowa", "age": 24, "isMale": false}' http://localhost:8098/buckets/s25550/keys/student4
+
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Adam", "surname": "Testowy", "age": 23, "isMale": true}' http://localhost:8098/buckets/s25550/keys/student5
+
+# 2
+curl -i http://localhost:8098/buckets/s25550/keys/student1
+
+# 3
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Michał", "surname": "Rosłaniec", "age": 25, "isMale": true, "lovesSpaghetti": true}' http://localhost:8098/buckets/s25550/keys/student1
+
+# 4
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Jan", "age": 21, "isMale": true}' http://localhost:8098/buckets/s25550/keys/student2
+
+# 5
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name": "Piotr", "surname": "Kowalski", "age": 22, "isMale": true}' http://localhost:8098/buckets/s25550/keys/student3
+
+# 6
+curl -XDELETE -i http://localhost:8098/buckets/s25550/keys/student4
+
+# 7
+curl -i http://localhost:8098/buckets/s25550/keys/student4
+
+# 8
+curl -XPOST -i -H "Content-Type: application/json" -d '{"pole": "testowe"}' http://localhost:8098/buckets/s25550/keys/
+
+# 9
+curl -i http://localhost:8098/buckets/s25550/keys/5UKWmu2N1PGqixXrA7DE98QS5Uc
+
+# 10
+curl -XDELETE -i http://localhost:8098/buckets/s25550/keys/5UKWmu2N1PGqixXrA7DE98QS5Uc

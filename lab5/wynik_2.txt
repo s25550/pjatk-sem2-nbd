@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvu9nrHSDCCUy5rEynN2idocvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25550>; rel="up"
+Last-Modified: Tue, 21 Jun 2022 21:31:57 GMT
+ETag: "6G05xofcDrjA0g1iX4Y2x5"
+Date: Tue, 21 Jun 2022 21:35:34 GMT
+Content-Type: application/json
+Content-Length: 71
+
+{"name": "Michał", "surname": "Rosłaniec", "age": 25, "isMale": true}

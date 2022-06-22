@@ -1,0 +1,47 @@
+﻿[
+  {
+    "d": {
+"identity": 180,
+"labels": [
+        "village"
+      ],
+"properties": {
+"name": "Sirikhola"
+      }
+    }
+  },
+  {
+    "d": {
+"identity": 184,
+"labels": [
+        "village"
+      ],
+"properties": {
+"name": "Rammam"
+      }
+    }
+  },
+  {
+    "d": {
+"identity": 181,
+"labels": [
+        "village"
+      ],
+"properties": {
+"name": "Gurdum"
+      }
+    }
+  },
+  {
+    "d": {
+"identity": 179,
+"labels": [
+        "peak"
+      ],
+"properties": {
+"altitude": "12400 ft",
+"name": "Sandakphu"
+      }
+    }
+  }
+]

@@ -1,0 +1,45 @@
+// 1
+MATCH (t:town {name: "Darjeeling"}),(p:peak {name: "Sandakphu"})
+WITH t,p
+MATCH path = ShortestPath((t)-[*..10]->(p))
+RETURN path
+
+// 2
+MATCH (t:town {name: "Darjeeling"}),(p:peak {name: "Sandakphu"})
+WITH t,p
+MATCH path = ShortestPath((t)-[*..10]->(p))
+WHERE ALL (r in relationships(path) WHERE r.winter = "true")
+RETURN path
+
+// 3
+MATCH paths = (t:town {name: "Darjeeling"})-[*1..50]->(p:peak {name: 'Sandakphu'})
+RETURN paths, reduce(distance = 0, r in relationships(paths) | distance + r.distance) as distance
+ORDER BY distance
+
+// 4
+// Rimbik zamiast Darjeeling ze względu na brak połączeń rowerem
+MATCH paths = (t:town {name:"Rimbik"})-[:twowheeler *1..50]->(d)
+WHERE ALL (r in relationships(paths) WHERE r.summer = "true")
+RETURN d
+
+// 5
+MATCH (a:Airport)<-[:ORIGIN*1..50]-(f:Flight)
+RETURN a, count(f) AS fCount
+ORDER BY fCount DESC
+
+// 6
+
+
+// 7
+
+
+// 8
+
+
+// 9
+MATCH (a:Airport)-[:DESTINATION|:ORIGIN]-(f:Flight)
+RETURN f.airline, COUNT(DISTINCT a) AS citiesCount
+ORDER BY citiesCount
+
+// 10
+
